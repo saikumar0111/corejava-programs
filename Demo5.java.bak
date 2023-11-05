@@ -1,0 +1,56 @@
+class Demo1
+{
+	public  void main1() 
+	{
+		System.out.println("main1");
+	}
+	
+}
+class Demo2
+{
+	public static void main2() 
+	{
+		System.out.println("main2");
+		Demo1 d1=new Demo1();
+		d1.main1();
+		
+
+		
+	}
+
+}
+class Demo3
+{
+
+public static void main3() 
+	{
+		System.out.println("main3");
+	}
+}
+class Demo4
+{
+	public  void main4() 
+	{
+		System.out.println("main4");
+		Demo3.main3();
+	}
+	public  void main5() 
+	{
+		System.out.println("main5");
+		
+	}
+
+}
+class Demo5
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main");
+	}
+}
+		
+
+		
+	
+
+
